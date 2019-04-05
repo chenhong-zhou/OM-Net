@@ -10,10 +10,9 @@ OM-Net exploits correlation among tasks to achieve superior performance, with on
 
 ## Model
 
-Firstly, we split multi-class brain tumor segmentation into three segmentation tasks: 1)*Coarse segmentation to detect complete tumor.
-2)*Refined segmentation for complete tumor and its intra-tumoral classes*. 3) *Precise segmentation for enhancing tumor*.
+Firstly, we split multi-class brain tumor segmentation into three segmentation tasks: *1) Coarse segmentation to detect complete tumor*. *2) Refined segmentation for complete tumor and its intra-tumoral classes*. *3) Precise segmentation for enhancing tumor*.
 
-For model cascade framework, each task is implemented by an independent basic network. Our basic network used in model cascade framework is a 3D variant of the [Fusionnet](FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics).See picture below. 
+For model cascade framework, each task is implemented by an independent basic network. Our basic network used in model cascade framework is a 3D variant of the [Fusionnet](https://arxiv.org/abs/1612.05360).See picture below. 
 
 ![img/3D_fusionnet.png](img/3D_fusionnet.png)
 
