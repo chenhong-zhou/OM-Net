@@ -12,11 +12,13 @@ OM-Net exploits correlation among tasks to achieve superior performance, with on
 
 Firstly, we split multi-class brain tumor segmentation into three segmentation tasks: *1) Coarse segmentation to detect complete tumor*. *2) Refined segmentation for complete tumor and its intra-tumoral classes*. *3) Precise segmentation for enhancing tumor*.
 
-For model cascade framework, each task is implemented by an independent basic network. Our basic network used in model cascade framework is a 3D variant of the [Fusionnet](https://arxiv.org/abs/1612.05360).See picture below. 
+
+For model cascade framework, each task is implemented by an independent basic network. Our basic network used in model cascade framework is a 3D variant of the [Fusionnet](https://arxiv.org/abs/1612.05360). See picture below. 
 
 ![img/3D_fusionnet.png](img/3D_fusionnet.png)
 
-OM-Net integrates three tasks with their respective training data being the same as those in model cascade framework. Its architecture is illustrated in the picture below. Each task owns its task-specific parameters and the shared backbone model is to learned the correlation among the tasks. Specifically, the shared backbone model refers to the network layers outlined by the yellow dashed line in 3D_fusionnet.png.
+
+OM-Net integrates three tasks with their respective training data being the same as those in model cascade framework. Its architecture is illustrated in the picture below. Each task owns its task-specific parameters and the shared backbone model is aimed to learn the correlation among the tasks. Specifically, the shared backbone model refers to the network layers outlined by the yellow dashed line in 3D_fusionnet.png.
 
 ![img/om-net-architecture.png](img/om-net-architecture.png)
 
@@ -37,7 +39,6 @@ To be continued.
 ## Contact
 
 eezhouch At mail.scut.edu.cn
-
 
 
 
