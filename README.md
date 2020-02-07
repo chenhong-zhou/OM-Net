@@ -1,6 +1,6 @@
 # OM-Net
 
-This is the code release for the MICCAI 2018 paper "One-Pass Multi-task Convolutional Neural Networks for Efficient Brain Tumor Segmentation", authored by Chenhong Zhou, Changxing Ding, Zhentai Lu, Xinchao Wang and Dacheng Tao.
+This is the code release for the TIP paper "One-pass Multi-task Networks with Cross-task Guided Attention for Brain Tumor Segmentation" and MICCAI 2018 paper "One-Pass Multi-task Convolutional Neural Networks for Efficient Brain Tumor Segmentation".
 
 
 This work overcomes the shortcomings of popular model cascade strategy that can lead to undesired system complexity and ignore the relevance among the models due to its multiple separate cascaded models. We propose to adopt multi-task learning to integrate multiple segmentation tasks into a deep model which is called [*One-pass Multi-task Network (OM-Net)*](https://doi.org/10.1007/978-3-030-00931-1_73).
@@ -23,15 +23,14 @@ OM-Net integrates three tasks with their respective training data being the same
 ![img/om-net-architecture.png](img/om-net-architecture.png)
 
 
+Please read these two papers for more detailed information.
+
 
 ## Usage
 
 All implementations are based on the [C3D](https://github.com/facebook/C3D), which is a 3D modified version of BVLC caffe.
 
 Please clone the C3D repository and add these files.
-
-
-To be continued.
 
 
 
