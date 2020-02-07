@@ -1,0 +1,12 @@
+train_net: "OM_Net_CGA_train.prototxt"
+display: 200
+lr_policy: "step"
+gamma: 0.5
+stepsize: 80000   
+base_lr: 1e-3                       
+momentum: 0.99
+max_iter: 400000
+weight_decay: 0.0005
+snapshot: 4000
+snapshot_prefix: "OM_Net_CGA_train"
+
