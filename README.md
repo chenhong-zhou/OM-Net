@@ -28,12 +28,15 @@ Cross-task guided attention (CGA) module is further proposed to share prediction
 
 Please read these two papers for more detailed information.
 
+Please note that we train OM-Net and OM-Net + CGA using 2GPUs simultaneously, so the batchsize in the .prototxt file is 10.
+
+
 
 ## Usage
 
 All implementations are based on the [C3D](https://github.com/facebook/C3D), which is a 3D modified version of BVLC caffe.
 
-Please clone the C3D repository and add these files.
+Please clone the C3D repository and download these files.
 
 
 
