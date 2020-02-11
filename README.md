@@ -43,8 +43,8 @@ Please clone the C3D repository and download these files.
 
 If you find the papers and code helpful for your research, please cite the following papers:
 
-C. Zhou, C. Ding, Z. Lu, X. Wang, and D. Tao, “One-pass Multi-task Convolutional Neural Networks for Efficient Brain Tumor Segmentation,” in Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Intervent, 2018, pp. 637–645.
-C. Zhou, C. Ding, Z. Lu, X. Wang, and D. Tao, “One-pass Multi-task Networks with Cross-task Guided Attention for Brain Tumor Segmentation,” IEEE Trans. Image Process., doi: 10.1109/TIP.2020.2973510, 2020.
+C. Zhou, C. Ding, Z. Lu, X. Wang, and D. Tao, ***“One-pass Multi-task Convolutional Neural Networks for Efficient Brain Tumor Segmentation,”*** in Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Intervent, 2018, pp. 637–645.
+C. Zhou, C. Ding, Z. Lu, X. Wang, and D. Tao, ***“One-pass Multi-task Networks with Cross-task Guided Attention for Brain Tumor Segmentation,”*** IEEE Trans. Image Process., doi: 10.1109/TIP.2020.2973510, 2020.
 
 
 
